@@ -1,5 +1,5 @@
 //Simple Demo that demonstrates 'print' and 'println' new functionality.
-
+// start of own dev 5/5/2019
 #define DisplaySerial Serial
 
 //-------Picaso DISPLAYS-------
@@ -95,5 +95,3 @@ void mycallback(int ErrCode, unsigned char Errorbyte)
     delay(200);                // wait for 200 ms
   }
 }
-
-
