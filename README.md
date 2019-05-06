@@ -7,9 +7,9 @@ Arduino Library for 4D Systems Serial Environment for Diablo16 based modules
 
 ## Information
 
-This library is provided with the installation of Workshop 4 from 4D Systems, however can be downloaded here for people who do not run Windows.
+This library is provided with the installation of Workshop 4 from 4D Systems, however it can be downloaded here for people who do not run Windows.
 This library provides high level functions for the Arduino, to ease communication with Diablo16 based modules when using the module configured for Serial.
-Please refer to the 4D Systems website, namingly the Workshop 4 Product Page, for documentation regarding Workshop 4, and its environments.
+Please refer to the 4D Systems website, namely the Workshop 4 Product Page, for documentation regarding Workshop 4, and its environments.
 
 ## Installation
 
