@@ -63,7 +63,7 @@ void setup() {
   Display.print(c); Display.print(' ');
   Display.println(c2);
   Display.println("This is String");
-  Display.println(F("This is Flashstring"));  // COMMENT OUT FOR ARDUINO DUE, NOT SUPPORTED
+  Display.println(F("This is Flash string"));  // COMMENT OUT FOR ARDUINO DUE, NOT SUPPORTED
   Display.println(string);
   Display.println(charr);
   Display.println(d, 6);
