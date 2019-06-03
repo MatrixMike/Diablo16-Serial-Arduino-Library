@@ -35,7 +35,7 @@ void setup() {
   delay (5000); //let the display start up
 
   Display.gfx_ScreenMode(PORTRAIT);
-  //Display.gfx_BGcolour(WHITE) ; //change background color to white
+  Display.gfx_BGcolour(WHITE) ; //change background color to white
   Display.gfx_Cls();            //clear the screen
 
   char a = 'A';
@@ -55,7 +55,6 @@ void setup() {
   uint32_t e = 123 ;
   unsigned long e2 = 123 ;
 
-
   Display.print(a); Display.print(' ');
   Display.println(a2);
   Display.print(b); Display.print(' ');
@@ -74,12 +73,10 @@ void setup() {
   Display.println(ovf2);
   Display.println(e2);
   Display.print(e);
-
 }
 
 void loop()
 {
-
 }
 
 void mycallback(int ErrCode, unsigned char Errorbyte)
