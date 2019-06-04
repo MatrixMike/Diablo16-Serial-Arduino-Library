@@ -77,6 +77,12 @@ void setup() {
 
 void loop()
 {
+  delay (5000); //let the display start up
+
+  Display.gfx_ScreenMode(PORTRAIT);
+  Display.gfx_BGcolour(WHITE) ; //change background color to white
+  Display.gfx_Cls();            //clear the screen
+  Display.println("This is String");
 }
 
 void mycallback(int ErrCode, unsigned char Errorbyte)
