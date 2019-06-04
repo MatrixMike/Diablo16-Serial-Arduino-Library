@@ -82,7 +82,14 @@ void loop()
   Display.gfx_ScreenMode(PORTRAIT);
   Display.gfx_BGcolour(WHITE) ; //change background color to white
   Display.gfx_Cls();            //clear the screen
-  Display.println("This is String");
+  int z;
+  for (z = 0; z < 6; z++) {
+    Display.print(z); Display.print(' ');
+    Display.println("This is String");
+    Display.print(z);
+  }
+
+
 }
 
 void mycallback(int ErrCode, unsigned char Errorbyte)
