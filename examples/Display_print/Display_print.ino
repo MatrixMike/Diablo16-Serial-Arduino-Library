@@ -73,7 +73,7 @@ void setup() {
   Display.println(ovf2);
   Display.println(e2);
   Display.print(e);
-//  I2C1_Open(9600,PA0,PA1);  // scl,sda);
+  //  I2C1_Open(9600,PA0,PA1);  // scl,sda);
 }
 
 void loop()
@@ -85,10 +85,10 @@ void loop()
   Display.gfx_Cls();            //clear the screen
   int z;
   for (z = 0; z < 20; z++) {
- //   Display.txt_Italic();
+    //   Display.txt_Italic();
     Display.println("This is String");
     Display.print(z); Display.print(' ');
-    Display.print(z,3);
+    Display.print(z, 3);
   }
 }
 
