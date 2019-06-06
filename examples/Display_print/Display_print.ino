@@ -81,7 +81,7 @@ void loop()
   delay (5000); //let the display start up
 
   Display.gfx_ScreenMode(PORTRAIT);
-  Display.gfx_BGcolour(WHITE) ; //change background color to white
+  Display.gfx_BGcolour(BLUE) ; //change background color to white
   Display.gfx_Cls();            //clear the screen
   int z;
   for (z = 0; z < 20; z++) {
