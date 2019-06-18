@@ -1,10 +1,10 @@
 //Simple Demo that demonstrates 'print' and 'println' new functionality.
 // start of own dev 5/5/2019
-#define DisplaySerial Serial
+#define DisplaySerial Serial3
 
 //-------Picaso DISPLAYS-------
 
-#include <Diablo_Const4D.h>
+//#include <Diablo_Const4D.h>
 #include <Diablo_Serial_4DLib.h>
 
 //use Serial0 to communicate with the display.
