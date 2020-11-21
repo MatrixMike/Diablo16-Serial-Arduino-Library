@@ -1,10 +1,10 @@
 //Simple Demo that demonstrates 'print' and 'println' new functionality.
 // start of own dev 5/5/2019
-#define DisplaySerial Serial
+#define DisplaySerial Serial3
 
 //-------Picaso DISPLAYS-------
 
-#include <Diablo_Const4D.h>
+//#include <Diablo_Const4D.h>
 #include <Diablo_Serial_4DLib.h>
 
 //use Serial0 to communicate with the display.
@@ -35,7 +35,7 @@ void setup() {
   delay (5000); //let the display start up
 
   Display.gfx_ScreenMode(PORTRAIT);
-  Display.gfx_BGcolour(WHITE) ; //change background color to white
+  Display.gfx_BGcolour(BLACK) ; //change background color to white
   Display.gfx_Cls();            //clear the screen
 
   char a = 'A';
@@ -81,7 +81,7 @@ void loop()
   delay (5000); //let the display start up
 
   Display.gfx_ScreenMode(PORTRAIT);
-  Display.gfx_BGcolour(WHITE) ; //change background color to white
+  Display.gfx_BGcolour(BLUE) ; //change background color to white
   Display.gfx_Cls();            //clear the screen
   int z;
   for (z = 0; z < 20; z++) {
